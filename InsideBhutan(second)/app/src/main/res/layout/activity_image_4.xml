@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".image_4"
+    android:orientation="vertical"
+    android:background="@drawable/img3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Inside Bhutan"
+            android:layout_gravity="center"
+            android:textSize="25dp"/>
+
+
+        <ImageView
+            android:id="@+id/imagetalo"
+            android:layout_width="338dp"
+            android:layout_height="166dp"
+            android:layout_marginTop="60dp"
+            android:layout_gravity="center"
+            app:layout_constraintEnd_toEndOf="@id/imagetalo"
+            app:layout_constraintHorizontal_bias="0.567"
+            app:layout_constraintStart_toStartOf="@+id/imagetalo"
+            app:layout_constraintTop_toBottomOf="@+id/textView7"
+            tools:layout_editor_absoluteY = "160dp"
+            app:srcCompat="@drawable/talo" />
+
+        <TextView
+            android:id="@+id/textta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Talo"
+            android:textSize="20dp"
+           android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="315dp"
+            android:layout_height="302dp"
+            android:paddingLeft="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/Talo_valley"
+            android:textSize="18dp"
+            android:lineHeight="20dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".image_3"
+    android:orientation="vertical"
+    android:background="@drawable/img3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Inside Bhutan"
+            android:layout_gravity="center"
+            android:textSize="25dp" />
+
+        <ImageView
+            android:id="@+id/image_chimmi"
+            android:layout_width="338dp"
+            android:layout_height="166dp"
+            android:layout_marginTop="52dp"
+            app:layout_constraintEnd_toEndOf="@id/textView6"
+            app:layout_constraintHorizontal_bias="0.567"
+            app:layout_constraintStart_toStartOf="@id/textView6"
+            android:layout_gravity="center"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY = "160dp"
+            app:srcCompat="@drawable/chimmi" />
+
+        <TextView
+            android:id="@+id/textchi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Chimmi Lhakhang"
+            android:textSize="20dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="315dp"
+            android:layout_height="302dp"
+            android:paddingLeft="40dp"
+            android:text="@string/chimmi_lhakhang"
+            android:textSize="14dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:lineHeight="20dp"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
